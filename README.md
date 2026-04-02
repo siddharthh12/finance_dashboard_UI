@@ -1,6 +1,6 @@
 # 💰 FinDash - Modern Finance Dashboard UI
 
-[🚀 Live Demo (Fake Link)](https://finance-dashboard-demo.vercel.app/)
+[🚀 Live Demo (Link)](https://financedashboarduis.netlify.app/)
 
 ## 📝 What I Built
 I developed a comprehensive, high-performance **Finance Dashboard UI** using React 19 and Vite. The application is designed to provide users with a clear, actionable overview of their financial health, featuring interactive data visualizations and a robust transaction management system. It prioritizes **Premium Aesthetics**, **Mobile Responsiveness**, and **User Experience**.
