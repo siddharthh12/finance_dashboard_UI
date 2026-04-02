@@ -1,16 +1,59 @@
-# React + Vite
+# 💰 FinDash - Modern Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[🚀 Live Demo (Fake Link)](https://finance-dashboard-demo.vercel.app/)
 
-Currently, two official plugins are available:
+## 📝 What I Built
+I developed a comprehensive, high-performance **Finance Dashboard UI** using React 19 and Vite. The application is designed to provide users with a clear, actionable overview of their financial health, featuring interactive data visualizations and a robust transaction management system. It prioritizes **Premium Aesthetics**, **Mobile Responsiveness**, and **User Experience**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **📊 Dynamic Analytics**:
+    - Interactive **Area Charts** for spending trends.
+    - **Pie Charts** for category-wise expense breakdown.
+    - Summary cards for **Balance**, **Income**, and **Expenses** with trend indicators.
+- **📑 Transaction Management**:
+    - Searchable and sortable transaction history.
+    - Advanced filters for transaction **Type** and **Category**.
+    - **CSV Export**: Download your financial data for external use.
+- **🔐 Role-Based Access Control (RBAC)**:
+    - **Admin Mode**: Full permissions to Add, Edit, and Delete transactions.
+    - **Viewer Mode**: Read-only access to the dashboard and history.
+    - Effortless role switching via the navigation bar.
+- **📱 Responsive & Interactive**:
+    - **Mobile-First Design**: Collapsible sidebar navigation (drawer menu) for small screens.
+    - **State Persistence**: All data and role preferences are saved to `localStorage`.
+    - **Smooth Animations**: Built with `tailwindcss-animate` for a polished feel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend**: React (Hooks, Context API)
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui & Radix UI primitives
+- **Icons**: Lucide React
+- **Charts**: Recharts
+- **Font**: Plus Jakarta Sans
 
-## Expanding the ESLint configuration
+## 🚀 How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+```bash
+git clone https://github.com/siddharthh12/finance_dashboard_UI.git
+cd finance_dashboard_UI
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+
+### 4. Build for production (Optional)
+```bash
+npm run build
+```
+
+---
+*Built with ❤️ by Siddharth*
